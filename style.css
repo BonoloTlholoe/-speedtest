@@ -1,0 +1,27 @@
+.body{
+    background-color: whitesmoke;
+}
+.img{
+    width: 35px;
+
+}
+.navbtn{
+    position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+  
+}
+.login{
+    border-radius: 25px;
+}
+.signup{
+    border-radius: 25px;
+}
+.solid{
+    
+        border-top: 3px solid #bbb;
+}
+.centerbtns{
+    margin-left: 30px;
+}

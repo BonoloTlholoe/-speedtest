@@ -1,21 +1,21 @@
 .body{
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
 }
 .img{
     width: 100px;
+    margin-left: 20px;
 
 }
 .navbtn{
-    position: absolute;
+  position: absolute;
   top: 8px;
   right: 16px;
-  font-size: 18px;
-  
+  font-size: 18px;  
 }
 .signup{
     border-radius:  25px;
     background-color: #000;
-    color: white;
+    color: whitesmoke;
     border: none;
     cursor: pointer;
     width: 80px; 
@@ -28,8 +28,7 @@
     width: 80px;
     height: 30px; 
     margin-right: 10px;  
-    
-    
+    margin-top: 40px;   
 }
 .solid{
     border-top: 3px solid #bbb;
@@ -38,47 +37,104 @@
 
 .solid{
     border-top: 3px solid #bbb;
+    bottom: 15%;
+    margin-bottom: 5px;
 
 }
 .btn {
   border: none;
   background-color: inherit;
   padding: 14px 28px;
-  font-size: 12px;
-  cursor: pointer;
-  display: inline-block;
-}
+  font-size: 19px;
+  bottom: 47%;
+  margin-top: 40px;
+  margin-left: 10px;
 
-.itemsbtn{
-    position: right;
-  top: 8px;
-  padding-right: 30px;
-  font-size: 18px;
-  margin-left: 150px;
-  border-radius: 25px;
-  margin-top: 5px;
-
-  
-}
+} 
 .items{
     border-radius: 25px;
     width: 80px; 
     height: 30px;
-    margin-left: 1180px;
-    margin-top: 5px;
-    
+    margin-left: 1200px;
+    bottom: 47%;
+    margin-bottom: 50px;
+    position: absolute;
+     
 }
 .icons8-shopping-cart-50{
     width : 25px;
     height: 25px;
-    float: right;
-    margin-right: 50px;
-    margin-top: 5px;
-    
+    position: absolute;
+    margin-bottom: 50px; 
+    bottom: 47%;   
+    margin-left: 25px;
+    right: 1%;
+    margin-top: 40px;
+    margin-left: 10px;
 }
 .navbtns{
     font-size: 15px;
-    margin-right: 5px;
-    text-align: left;
-    margin-top: 0px;
+    margin-top: 30px
+}
+.banner{
+    background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fgreensafaris.com%2F%3Fb%3D8352004899&psig=AOvVaw2Zptz4M22cCx-z_nGOfxZd&ust=1755080726979000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLirscmHhY8DFQAAAAAdAAAAABAE') no-repeat center center;
+    border-radius: 500px;
+    padding: 120px 40px;
+    text-align: center;
+    color: white;
+    max-width: 1000px;
+    margin: 20px auto;
+}
+.overlay{
+    background: rgba(255, 255, 255, 0.0); /* transparent so image shows */
+}
+.banner h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    background: whitesmoke;
+    border-radius: 30px;
+    padding: 8px 12px;
+    max-width: 500px;
+    margin: 0 auto 20px;
+}
+.search-bar .search-icon{
+    font-size: 1.2px;
+    margin-right: 10px;
+    color: #777;
+}
+
+.search-bar input[type="text"]{
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+}
+.search-bar .search-btn{
+    background-color: #3ba9ff;
+    color: white;
+    border: none;
+    border-radius: 20%;
+    padding: 8px 14px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.categories{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.categories button{
+    background: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 0.9rem;
 }
